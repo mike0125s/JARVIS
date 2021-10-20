@@ -80,7 +80,7 @@ if __name__ == "__main__":
        elif 'open flipcart' in query:
              webbrowser.open("flipcart.com")
        elif 'open whatsapp' in query:
-             whatsapp_dir = 'C:\\Users\\MANIDEEPTA\\AppData\\Local\\WhatsApp'
+             whatsapp_dir = 'C:\\Users\\MANIDEEPTA\\AppData\\Local\\WhatsApp'  ## PLease give the own whatsapp directory path ##
              whatsapp = os.listdir(whatsapp_dir)
              print(whatsapp)
              os.startfile(os.path.join(whatsapp_dir,whatsapp[6]))
